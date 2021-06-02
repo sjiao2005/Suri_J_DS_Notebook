@@ -19,8 +19,7 @@ library(dplyr)
 library(ggplot2)
 
 mining2 <- mining %>%
- filter(!(YEAR %in% c("1972", "1973", "1974", "1975", "1976", "1977", "1978", 
-"1979"))) %>%
+ filter(!(YEAR %in% c("1972", "1973", "1974", "1975", "1976", "1977", "1978"))) %>%
  filter(QTR %in% "4")
 
 
